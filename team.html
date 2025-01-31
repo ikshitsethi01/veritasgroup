@@ -1,937 +1,366 @@
 <html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Team | Veritas Group</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Team | The Veritas Group</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-      
-        <!-- Favicons -->
-    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png"><link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-    <meta name="theme-color" content="#712cf9">
-    <style>
-        .basic-2 .text-box {
-      margin-bottom: 3rem;
-      padding: 3.5rem 1rem 2.125rem 1rem;
-      border: 1px solid #cfd7de;
-        }
-      
-      .bg-gray {
-      	background-color: #f7f9fb;
-      }
-      
-      .section-divider {
-      	display: block;
-      	height: 1px;
-      	margin: 0;
-      	border: none;
-      	background-color: #d3dae2;
-      }
+  <!-- Favicons -->
+  <link href="logos/veritasgroupb.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-	a{
-		color: #549ca3!important;
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+<style>
+	.service-item{
+		padding: 10px 20px!important;
 	}
-	    
-      
-      .btn-solid-reg {
-      	display: inline-block;
-      	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-      	border: 1px solid #0b36a8;
-      	background-color: #0b36a8;
-      	color: #ffffff;
-      	font-weight: 600;
-      	font-size: 0.875rem;
-      	line-height: 0;
-      	text-decoration: none;
-      	transition: all 0.2s;
-      }
-      
-      .btn-solid-reg:hover {
-      	background-color: transparent;
-      	color: #0b36a8; /* needs to stay here because of the color property of a tag */
-      	text-decoration: none;
-      }
-      
-      .btn-solid-lg {
-      	display: inline-block;
-      	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-      	border: 1px solid #0b36a8;
-      	background-color: #0b36a8;
-      	color: #ffffff;
-      	font-weight: 600;
-      	font-size: 0.875rem;
-      	line-height: 0;
-      	text-decoration: none;
-      	transition: all 0.2s;
-      }
-      
-      .btn-solid-lg:hover {
-      	background-color: transparent;
-      	color: #0b36a8; /* needs to stay here because of the color property of a tag */
-      	text-decoration: none;
-      }
-      
-      .btn-outline-reg {
-      	display: inline-block;
-      	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-      	border: 1px solid #24262a;
-      	background-color: transparent;
-      	color: #24262a;
-      	font-weight: 600;
-      	font-size: 0.875rem;
-      	line-height: 0;
-      	text-decoration: none;
-      	transition: all 0.2s;
-      }
-      
-      .btn-outline-reg:hover {
-      	background-color: #24262a;
-      	color: #ffffff;
-      	text-decoration: none;
-      }
-      
-      .btn-outline-lg {
-      	display: inline-block;
-      	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-      	border: 1px solid #24262a;
-      	background-color: transparent;
-      	color: #24262a;
-      	font-weight: 600;
-      	font-size: 0.875rem;
-      	line-height: 0;
-      	text-decoration: none;
-      	transition: all 0.2s;
-      }
-      
-      .btn-outline-lg:hover {
-      	background-color: #24262a;
-      	color: #ffffff;
-      	text-decoration: none;
-      }
-      
-      .btn-outline-sm {
-      	display: inline-block;
-      	padding: 1rem 1.5rem 1rem 1.5rem;
-      	border: 1px solid #24262a;
-      	background-color: transparent;
-      	color: #24262a;
-      	font-weight: 600;
-      	font-size: 0.875rem;
-      	line-height: 0;
-      	text-decoration: none;
-      	transition: all 0.2s;
-      }
-      
-      .btn-outline-sm:hover {
-      	background-color: #24262a;
-      	color: #ffffff;
-      	text-decoration: none;
-      }
-      
-      .form-group {
-      	position: relative;
-      	margin-bottom: 1.25rem;
-      }
-      
-      .label-control {
-      	position: absolute;
-      	top: 0.875rem;
-      	left: 1.5rem;
-      	color: #7d838a;
-      	opacity: 1;
-      	font-size: 0.875rem;
-      	line-height: 1.375rem;
-      	cursor: text;
-      	transition: all 0.2s ease;
-      }
-      
-      .form-control-input:focus + .label-control,
-      .form-control-input.notEmpty + .label-control,
-      .form-control-textarea:focus + .label-control,
-      .form-control-textarea.notEmpty + .label-control {
-      	top: 0.125rem;
-      	color: #4d5055;
-      	opacity: 1;
-      	font-size: 0.75rem;
-      	font-weight: 700;
-      }
-      
-      .form-control-input,
-      .form-control-select {
-      	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
-      	width: 100%;
-      	padding-top: 1.125rem;
-      	padding-bottom: 0.125rem;
-      	padding-left: 1.5rem;
-      	border: 1px solid #cbcbd1;
-      	background-color: #ffffff;
-      	color: #4d5055;
-      	font-size: 0.875rem;
-      	line-height: 1.875rem;
-      	transition: all 0.2s;
-      	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
-      }
-      
-      .form-control-select {
-      	padding-top: 0.5rem;
-      	padding-bottom: 0.5rem;
-      	height: 3.25rem;
-      	color: #7d838a;
-      }
-      
-      select {
-          /* you should keep these first rules in place to maintain cross-browser behavior */
-          -webkit-appearance: none;
-      	-moz-appearance: none;
-      	-ms-appearance: none;
-          -o-appearance: none;
-          appearance: none;
-          background-image: url('../images/down-arrow.png');
-          background-position: 96% 50%;
-          background-repeat: no-repeat;
-          outline: none;
-      }
-      
-      .form-control-textarea {
-      	display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
-      	width: 100%;
-      	height: 14rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
-      	padding-top: 1.5rem;
-      	padding-left: 1.3125rem;
-      	border: 1px solid #cbcbd1;
-      	background-color: #ffffff;
-      	color: #4d5055;
-      	font-size: 0.875rem;
-      	line-height: 1.5rem;
-      	transition: all 0.2s;
-      }
-      
-      .form-control-input:focus,
-      .form-control-select:focus,
-      .form-control-textarea:focus {
-      	border: 1px solid #a1a1a1;
-      	outline: none; /* Removes blue border on focus */
-      }
-      
-      .form-control-input:hover,
-      .form-control-select:hover,
-      .form-control-textarea:hover {
-      	border: 1px solid #a1a1a1;
-      }
-      
-      .checkbox {
-      	font-size: 0.75rem;
-      	line-height: 1.25rem;
-      }
-      
-      input[type='checkbox'] {
-      	vertical-align: -10%;
-      	margin-right: 0.5rem;
-      }
-      
-      .form-control-submit-button {
-      	display: inline-block;
-      	width: 100%;
-      	height: 3.25rem;
-      	border: 1px solid #0b36a8;
-      	border-radius: 32px;
-      	background-color: #0b36a8;
-      	color: #ffffff;
-      	font-weight: 600;
-      	font-size: 0.875rem;
-      	line-height: 0;
-      	cursor: pointer;
-      	transition: all 0.2s;
-      }
-      
-      .form-control-submit-button:hover {
-      	border: 1px solid #24262a;
-      	background-color: transparent;
-      	color: #24262a;
-      }
-      
-  
-      
-      /*******************/
-      /*     Details     */
-      /*******************/
-      .split .area-1 {
-      	height: 430px;
-      	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/details-background.jpg') center center no-repeat;
-      	background-size: cover;
-      }
-      
-      .split .area-2 {
-      	padding-top: 7.75rem;
-      	padding-bottom: 7.75rem;
-      }
-      
-      .split p {
-      	margin-bottom: 2.25rem;
-      }
-      
-      .split .icons-container {
-      	margin-top: 3rem;
-      }
-      
-      .split .icons-container img {
-      	width: 50px;
-      	margin-right: 0.625rem;
-      	margin-bottom: 0.75rem;
-      }
-
-	.container {
-		padding: 10px;
-		text-align: center;
+	.text-body-secondary{
+		color: white!important;
 	}
-      
-      
-      /********************/
-      /*     Projects     */
-      /********************/
-      .basic-3 {
-      	padding-top: 7.75rem;
-      	padding-bottom: 1rem;
-      }
-      
-      .basic-3 .h2-heading {
-      	margin-bottom: 0.75rem;
-      	text-align: center;
-      }
-      
-      .basic-3 .p-heading {
-      	margin-bottom: 4rem;
-      	text-align: center;
-      }
-      
-      .basic-3 .text-container {
-      	margin-bottom: 4rem;
-      }
-      
-      .basic-3 .image-container {
-      	margin-bottom: 1rem;
-      }
-      
-      /* Hover Animation */
-      .basic-3 .image-container {
-      	overflow: hidden;
-      	margin-right: auto;
-      	margin-left: auto;
-      }
-      
-      .basic-3 .image-container img {
-      	margin: 0;
-      	transition: all 0.2s;
-      }
-      
-      .basic-3 .image-container:hover img {
-      	-moz-transform: scale(1.1);
-      	-webkit-transform: scale(1.1);
-      	transform: scale(1.1);
-      } 
-      /* end of hover animation */
-      
-      
-      /*****************/
-      /*     Works     */
-      /*****************/
-      .basic-4 {
-      	padding-bottom: 1rem;
-      }
-      
-      .basic-4 .text-container {
-      	margin-bottom: 4rem;
-      }
-      
-      .basic-4 .image-container {
-      	margin-bottom: 1rem;
-      }
-      
-      /* Hover Animation */
-      .basic-4 .image-container {
-      	overflow: hidden;
-      	margin-right: auto;
-      	margin-left: auto;
-      }
-      
-      .basic-4 .image-container img {
-      	margin: 0;
-      	transition: all 0.2s;
-      }
-      
-      .basic-4 .image-container:hover img {
-      	-moz-transform: scale(1.15);
-      	-webkit-transform: scale(1.15);
-      	transform: scale(1.15);
-      } 
-      /* end of hover animation */
-      
-      
-      
-      
-      /******************************/
-      /*     Back To Top Button     */
-      /******************************/
-      a.back-to-top {
-      	position: fixed;
-      	z-index: 999;
-      	right: 12px;
-      	bottom: 12px;
-      	display: none;
-      	width: 42px;
-      	height: 42px;
-      	border-radius: 30px;
-      	background: #3a424d url("../images/up-arrow.png") no-repeat center 47%;
-      	background-size: 18px 18px;
-      	text-indent: -9999px;
-      }
-      
-      a:hover.back-to-top {
-      	background-color: #0b36a8;
-      }
-      
-      
-  
-      
-      
-      /*************************/
-      /*     Media Queries     */
-      /*************************/	
-      /* Min-width 768px */
-      @media (min-width: 768px) {
-      
-      	/* Header */
-      	.header {
-      		padding-top: 11rem;
-      		padding-bottom: 9rem;
-      	}
-      	/* end of header */
-      
-      
-      	/* Services */
-      	.basic-2 .text-box {
-      		padding-right: 2.125rem;
-      		padding-left: 2.125rem;
-      	}
-      	/* end of services */
-      
-      
-      	/* Extra Pages */
-      	.ex-basic-1 .text-box {
-      		padding: 1.75rem 2rem 0.875rem 2rem;
-      	}
-      	/* end of extra pages */
-      }
-      /* end of min-width 768px */
-      
-          .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      color: aliceblue;
-      background-color: #549ca3;
-      border: 2px solid white;
-      margin: 1rem;
-    }
-      /* Min-width 992px */
-      @media (min-width: 992px) {
-      	
-      	/* General Styles */
-      	.h2-heading {
-      		width: 35.25rem;
-      		margin-right: auto;
-      		margin-left: auto;
-      	}
-      
-      	.p-heading {
-      		width: 46rem;
-      		margin-right: auto;
-      		margin-left: auto;
-      	}
-      	/* end of general styles */
-      
-      
-      	/* Navigation */
-      	.navbar {
-      		padding-top: 1.75rem;
-      		background-color: transparent;
-      		box-shadow: none;
-      		transition: all 0.2s;
-      	}
-      
-      	.navbar.top-nav-collapse {
-      		padding-top: 0.5rem;
-      		padding-top: 0.5rem;
-      		background-color: #24262a;
-      		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
-      	}
-      
-      	.offcanvas-collapse {
-      		position: static;
-      		top: auto;
-      		bottom: auto;
-      		left: auto;
-      		width: auto;
-      		padding-right: 0;
-      		padding-left: 0;
-      		background-color: transparent;
-      		overflow-y: visible;
-      		visibility: visible;
-      	}
-      
-      	.offcanvas-collapse.open {
-      		-webkit-transform: none;
-      		transform: none;
-      	}
-      
-      	.navbar .navbar-nav {
-      		margin-top: 0;
-      		margin-bottom: 0;
-      	}
+  /* PHONE CSS */
+	@media only screen and (max-width: 600px) {
+		.me-2{
+			width: 65%!important;
+		}
 
-        .row{
-      margin-top: 0px;
-    }
-    
-    .column {
-      float: left;
-      width: 31%;
-      margin-bottom: 16px;
-      padding: 0 8px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-    
-    @media screen and (max-width: 650px) {
-      .column {
-        width: 100%;
-        display: block;
-      }
-      .row{
-        margin: 0px;
-      }
-    }
-    
+		.col-lg-12{
+			display: block!important;
+		}
+		.info-item{
+			margin-top: 40px!important;
+			margin-left: 0!important;
+		}
+		.services{
+			padding-top: 10!important;
+		}
+		
+		.order-lg-1{
+			padding-right: calc(var(--bs-gutter-x) * .5)!important;
+		}
+		.btn-getstarted{
+			display: none!important;
+		}
+		.pwhat{
+			font-size: 16px!important;
+  			text-align: left!important;
+		}
+	}
+</style>
 
-      	.navbar .nav-item .nav-link {
-      		padding-right: 0.625rem;
-      		padding-left: 0.625rem;
-		color: #549ca3;
-      	}
-      
-      	.navbar .dropdown-menu {
-      		margin-top: 0.25rem;
-      		box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.08);
-      	}
-      
-      	.navbar .dropdown-divider {
-      		width: 90%;
-      	}
-      
-      	.navbar .social-icons {
-      		margin-left: 0.5rem;
-      	}
-      	
-      	.navbar .fa-stack {
-      		margin-right: 0;
-      		margin-left: 0.25rem;
-      	}
-      	/* end of navigation */
-      
-      
-      	/* Header */
-      	.header {
-      		padding-top: 15rem;
-      		padding-bottom: 14rem;
-      		text-align: left;
-      	}
-      	/* end of header */
-      
-      
-      	/* Details */
-      	.split {
-      		height: 760px;
-      	}
-      	
-      	.split .area-1 {
-      		height: 100%;
-      		width: 50%;
-      		display: inline-block;
-      	}
-      	
-      	.split .area-2 {
-      		height: 100%;
-      		width: 50%;
-      		display: inline-block;
-      		vertical-align: top;
-      	}
-      
-      	.split .text-container {
-      		width: 400px;
-      		margin-left: 3rem;
-      	}
-      	/* end of details */
-      
-      
-      	/* Testimonials */
-      	.s-1 . {
-      		display: inline-block;
-      		width: 290px;
-      		vertical-align: top;
-      	}
-      
-      	.s-1 .:nth-of-type(3n+2) {
-      		margin-right: 1.5rem;
-      		margin-left: 1.5rem;
-      	}
-      
-      	.s-1 .-body {
-      		text-align: left;
-      	}
-      
-      	.s-1 .details {
-      		display: flex;
-      		align-items: flex-start;
-      	}
-      	
-      	.s-1 .details .text {
-      		flex-direction: column;
-      	}
-      	
-      	.s-1 .details img {
-      		margin-right: 1.125rem;
-      	}
-      	/* end of testimonials */
-      
-      
-      	/* Accordion */
-      	.accordion-1 .accordion {
-      		width: 730px;
-      		margin-right: auto;
-      		margin-left: auto;
-      	}
-      	/* end of accordion */
-      
-      
-      	/* Contact */
-      	.form-1 form {
-      		width: 790px;
-      		margin-right: auto;
-      		margin-left: auto;
-      	}
-      	/* end of contact */
-      
-      
-      	/* Extra Pages */
-      	.ex-s-1 . {
-      		display: inline-block;
-      		width: 296px;
-      		vertical-align: top;
-      	}
-      
-      	.ex-s-1 .:nth-of-type(3n+2) {
-      		margin-right: 1rem;
-      		margin-left: 1rem;
-      	}
-      	/* end of extra pages */
-      }
-      /* end of min-width 992px */
-      
-      
-      /* Min-width 1200px */
-      @media (min-width: 1200px) {
-      
-      	/* General Styles */
-      	.h1-large {
-      		font-size: 3.75rem;
-      		line-height: 4.625rem;
-      	}
-      	/* end of general styles */
-      
-      
-      	/* Navigation */
-      	.navbar .container {
-      		max-width: 1330px;
-      	}
-      	/* end of navigation */
-      
-      
-      	/* Header */
-      	.header {
-      		padding-top: 18.25rem;
-      		padding-bottom: 17.25rem;
-      	}
-      	/* end of header */
-      
-      
-      	/* About */
-      	.basic-1 .text-container.first {
-      		margin-right: 2rem;
-      	}
-      
-      	.basic-1 .text-container.second {
-      		margin-right: 1rem;
-      		margin-left: 1rem;
-      	}
-      
-      	.basic-1 .text-container.third {
-      		margin-left: 2rem;
-      	}
-      	/* end of about */
-      
-      
-      	/* Details */
-      	.split {
-      		height: 700px;
-      	}
-      
-      	.split .text-container {
-      		width: 460px;
-      		margin-left: 5rem;
-      	}
-      	/* end of details */
-      
-      
-      	/* Testimonials */
-      	.s-1 . {
-      		width: 338px;
-      	}
-      	
-      	.s-1 .:nth-of-type(3n+2) {
-      		margin-right: 2.625rem;
-      		margin-left: 2.625rem;
-      	}
-      	/* end of testimonials */
-      	
-      
-      	/* Extra Pages */
-      	.ex-s-1 . {
-      		width: 336px;
-      	}
-      
-      	.ex-s-1 .:nth-of-type(3n+2) {
-      		margin-right: 2.875rem;
-      		margin-left: 2.875rem;
-      	}
-      	/* end of extra pages */
-      }
-      /* end of min-width 1200px */
-	
-    </style>
-  </head>
-  <body background-color="black" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" style="
-    background: black;
-">
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="
-    padding-top: 0.5rem;
-">
-    <div class="container-fluid">
-      
-      <a class="navbar-brand" href="https://veritasgroup.in/" style="
-    width: 5%;
-    color: white!important;
-">The Veritas Group</a><button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="navbarCollapse" style="">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0" style="
-    margin-right: auto;
-    margin-left: auto;
-">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://veritasgroup.in" style="color: rgba(255,255,255,.5)!important;">Home</a>
+</head>
+
+<body class="index-page scrolled" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="0" style="">
+
+  <header id="header" class="header d-flex align-items-center fixed-top" style="--background-color: rgba(0, 0, 0, 0.8)!important;">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">The Veritas Group</h1>
+<span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="">Home<br></a></li>
+          <li><a href="https://veritasgroup.in/team" class="">Team</a></li>
+          <li class="dropdown"><a href="#services" class="active"><span>Conferences</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://veritasgroup.in/conferences/veritasch2">Veritas MUN 2.0</a></li>
+                  <li><a href="https://veritasgroup.in/conferences/verizon">Verizon MUN 1.0</a></li>
+                  <li><a href="#">Vercian MUN 1.0</a></li>
+                  <li><a href="#">Vimarsha YP 1.0</a></li>
+            <li><a href="https://veritasgroup.in/conferences/veritasch1">Veritas MUN 1.0</a></li><li><a href="#">Araver MUN</a></li></ul>
           </li>
-          <li class="nav-item" style="
-">
-            <a class="nav-link" href="https://veritasgroup.in/team" style="
-    color: white!important;
-">Team</a>
+          <li class="dropdown"><a href="#portfolio"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://veritasgroup.in/conferences/kaizen">Kaizen For Change</a></li>
+            <li><a href="#">Verses</a></li></ul>
           </li>
-         <li class="nav-item dropdown" style="padding: 0.5rem 1rem;">
-                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="
-    color: rgba(255,255,255,.5)!important;
-"> Conferences </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="https://veritasgroup.in/conferences/veritasch2">Veritas MUN 2.0</a>
-                    <a class="dropdown-item" href="https://veritasgroup.in/conferences/veritasch1">Veritas MUN 1.0</a><a class="dropdown-item" href="https://veritasgroup.in/conferences/verizon">Verizon MUN</a>
-                  <a class="dropdown-item" href="https://veritasgroup.in/conferences/araver">Araver MUN</a></div>
-         </li>
-          <li class="nav-item dropdown" style="padding: 0.5rem 1rem;padding-left: 0rem;">
-                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="
-    color: rgba(255,255,255,.5)!important;
-"> Projects </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="https://veritasgroup.in/conferences/kaizen">Kaizen For Change</a>
-                    
-                  </div>
-         </li><li class="nav-item">
-            <a class="nav-link" aria-disabled="true" style="
-    color: rgba(255,255,255,.5)!important;
-" href="mailto:info@veritasgroup.in">Contact</a>
-          </li>
+          <li><a href="mailto:info@veritasgroup.in" class="">Contact</a></li>
         </ul>
-        <a class="d-flex" style="
-    margin-bottom: 0rem;
-" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform
-      ">
-          </a><button class="btn btn-outline-success" type="submit" style="
-"><a class="d-flex" style="
-    margin-bottom: 0rem;
-" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform
-      "></a><a src="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform
-      " style="
-    color: inherit!important;
-">Join Veritas Group</a></button>
-        
-      </div>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform">Join Veritas Group</a>
+
     </div>
-  </nav>
-<div class="container marketing" style="
-    margin-top: 5rem;
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <!-- /Hero Section -->
+
+    <!-- About Section -->
+    <!-- /About Section -->
+
+    <!-- Services Section -->
+<section id="team" class="team section" style="
+    padding-top: 7rem;
 ">
-   <h1 style="
-    color: white;
-    text-decoration: underline;
-"> Meet members of the Veritas Group
-</h1><div class="row" style="
-">
-  <div class="column aos-init aos-animate" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Satvik.jpg" alt="picture" style="width:100%">
+
+      <!-- Section Title -->
+      <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>the veritas group</h2>
+        <p>our Team</p>
+      </div><!-- End Section Title -->
+
       <div class="container">
-        <h2>Satvik Singhal</h2><h3 class="title">CEO and Founder</h3>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="teami/satvik.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Satvik Singhal</h4>
+                <span>Founder &amp; CEO</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="teami/khyatee.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Khyatee Singh</h4>
+                <span>CMO</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="teami/jia.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Jia Chhabra</h4>
+                <span>COO</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="teami/bhumi.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Bhumi Aggarwal</h4>
+                <span>CIO</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
       </div>
+
+    </section><section id="team" class="team section" style="
+    padding: 0 0px;
+">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="teami/dhruv.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Dhruv Tyagi</h4>
+                <span>President</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="teami/vyomika.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Vyomika Sharma</h4>
+                <span>Advisor</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="teami/abipsha.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Abhipsha Verma</h4>
+                <span>Vice President</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="teami/ikshit.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ikshit Sethi</h4>
+                <span>Director of IT</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><section id="team" class="team section">
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="teami/ikshit.png" class="img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Kyra Chabbra</h4>
+            <span>HR Manager</span>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-member">
+          <div class="member-img">
+            <img src="teami/kashni.png" class="img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Kashni Katyal</h4>
+            <span>Deputy President</span>
+          </div>
+        </div>
+      </div><!-- End Team Member -->
+
+      <!-- End Team Member -->
+
+      <!-- End Team Member -->
+
     </div>
+
   </div>
 
-  <div class="column aos-init aos-animate" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Alisha.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Alisha Suri</h2><h3 class="title">CMO</h3>
-      </div>
-    </div>
-  </div>
-  
-  <div class="column aos-init aos-animate" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Jia.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Jia Chhabra</h2><h3 class="title">COO</h3>
-      </div>
-    </div>
-  </div>
-  
-    <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Amber.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Amber Kaur Rohatgi</h2><h3 class="title">CIO</h3>
-      </div>
-    </div>
-  </div>
-  
-      <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Dhruv.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Dhruv Tyagi</h2><h3 class="title">President</h3>
-      </div>
-    </div>
-  </div>
-  
-      <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Bhumi.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Bhumi Aggarwal</h2><h3 class="title">Deputy President</h3>
-      </div>
-    </div>
-  </div>
-	         <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Khyatee.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Khyatee Singh</h2><h3 class="title">Vice President</h3>
-      </div>
-    </div>
-  </div>
-	         <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Bhavya.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Bhavya Singh</h2><h3 class="title">Sr. Executive Secretary</h3>
-      </div>
-    </div>
-  </div>
-	         <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Navya.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Navya Chaudhry</h2><h3 class="title">Executive Secretary</h3>
-      </div>
-    </div>
-  </div>
-	         <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Akshita.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Akshita Shukla</h2><h3 class="title">Sr. General Manager</h3>
-      </div>
-    </div>
-  </div>
-	   <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Sia.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Sia</h2><h3 class="title">General Manager</h3>
-      </div>
-    </div>
-  </div>
-	   <div class="column aos-init" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Ikshit.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Ikshit Sethi</h2><h3 class="title">IT Director</h3>
-      </div>
-    </div>
-  </div>
-	   	   <div class="column aos-init" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Aakansha.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Aakansha Sharma</h2><h3 class="title">Director of Logistics</h3>
-      </div>
-    </div>
-  </div>	   
-<div class="column aos-init" data-aos="zoom-out" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Lakshyata.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Lakshyata Wadhwa</h2><h3 class="title" style="
-    font-size: 1.6rem;
-">HOD Human Resources</h3>
-      </div>
-    </div>
-  </div>
-	   	   <div class="column aos-init" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-    <div class="card">
-      <img src="teamp/Drishti.jpg" alt="picture" style="width:100%">
-      <div class="container">
-        <h2>Drishti Singh</h2><h3 class="title">Executive Marketing</h3>
-      </div>
-    </div>
-  </div>
-      </div>
-    </div>
-  
-  
+</section><!-- /Services Section -->
 
-   
-<div class="container">
+
+    <!-- Call To Action Section -->
+    <!-- /Call To Action Section -->
+
+    
+    <!-- Testimonials Section -->
+    <!-- /Testimonials Section -->
+
+    <!-- Team Section -->
+    <!-- /Team Section -->
+
+    <!-- Team Section -->
+    <!-- /Team Section -->
+
+<!-- Team Section -->
+<!-- /Team Section -->
+    <!-- Team Section -->
+    <!-- /Team Section -->
+
+    <!-- Contact Section -->
+    <!-- /Contact Section -->
+
+  </main>
+
+  <div class="container">
   <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" style="
     color: white;
     text-align: left;
@@ -940,9 +369,9 @@
 ">
     <div class="col mb-3">
       <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-        <img class="bi me-2" width="100" src="https://ikshitsethi01.github.io/veritasgroup/logos/footer.jpg
-    " style="
-    width: 200%;
+        <img class="bi me-2" width="100" src="https://ikshitsethi01.github.io/veritasgroup/logos/footer.jpg" style="
+    width: 160%;
+    margin-top: -2%;
 ">
       </a>
       
@@ -958,7 +387,7 @@
         <li class="nav-item mb-2"><a href="https://veritasgroup.in/" class="nav-link p-0 text-body-secondary">Home</a></li>
         <li class="nav-item mb-2"><a href="https://veritasgroup.in/team" class="nav-link p-0 text-body-secondary">Team</a></li>
         <li class="nav-item mb-2"><a href="mailto:info@veritasgroup.in" class="nav-link p-0 text-body-secondary">Contact</a></li>
-        <li class="nav-item mb-2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" class="nav-link p-0 text-body-secondary">Join Veritas Group</a></li>
+        <li class="nav-item mb-2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" class="nav-link p-0 text-body-secondary">Join Team Veritas</a></li>
         
       </ul>
     </div>
@@ -966,10 +395,10 @@
     <div class="col mb-3">
       <h5>Conferences</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/veritasch2" class="nav-link p-0 text-body-secondary">Veritas MUN 2.0</a></li>
-        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/veritasch1" class="nav-link p-0 text-body-secondary">Veritas MUN 1.0</a></li><li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/verizon" class="nav-link p-0 text-body-secondary">Verizon MUN</a></li>
+        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/veritasch2" class="nav-link p-0 text-body-secondary">Veritas MUN</a></li>
+        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/veritasch1" class="nav-link p-0 text-body-secondary">Verizon MUN</a></li><li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/verizon" class="nav-link p-0 text-body-secondary">Vercian MUN</a></li>
         
-        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/araver" class="nav-link p-0 text-body-secondary">Araver MUN</a></li>
+        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/araver" class="nav-link p-0 text-body-secondary">Vimarsha MUN</a></li>
         
       </ul>
     </div>
@@ -982,27 +411,29 @@
         
         
         
-      </ul>
+      <li class="nav-item mb-2"><a href="kaizen" class="nav-link p-0 text-body-secondary">Verses</a></li></ul>
     </div>
   </footer>
 </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-   <script>
-      AOS.init();
-  function pageScroll() {
-    window.scrollBy(0,3);
-    scrolldelay = setTimeout(pageScroll,3);
-	}</script> 
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
   
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
-
-
-
-
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 
 
