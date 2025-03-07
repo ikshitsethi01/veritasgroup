@@ -989,6 +989,8 @@ section,
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 5px 0;
+  color: aqua;
+  text-transform: uppercase;
 }
 
 .features .features-item i {
@@ -999,7 +1001,7 @@ section,
 }
 
 .features .features-item p {
-  font-size: 15px;
+  font-size: 18px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 0;
 }
