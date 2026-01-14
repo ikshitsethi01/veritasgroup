@@ -1,0 +1,489 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Verizon MUN Conference V | The Veritas Group</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="../logos/verizonch2.jpg" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+<style>    
+.section-title h2::after{
+	background: aqua;
+}
+
+h4{
+font-weight: bold;
+}
+.features .features-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  color: aqua;
+  text-transform: uppercase;
+}
+
+.features .features-item i {
+  font-size: 48px;
+  color: var(--accent-color);
+  margin-right: 20px;
+  line-height: 0;
+}
+
+.features .features-item p {
+  font-size: 18px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 0;
+}
+.confb{
+    padding: 10px 30px!important;
+    font-size: 22px!important;
+    border-radius: 6px!important;
+    font-family: var(--heading-font);
+}
+    .text-box {
+      margin-bottom: 3rem;
+      padding: 3.5rem 1rem 2.125rem 1rem;
+      border: 1px solid #cfd7de!important;
+        }
+	.service-item{
+		padding: 10px 20px!important;
+	}
+	.text-body-secondary{
+		color: white!important;
+	}
+  /* PHONE CSS */
+	@media only screen and (max-width: 600px) {
+		.me-2{
+			width: 65%!important;
+		}
+
+		.col-lg-12{
+			display: block!important;
+		}
+		.info-item{
+			margin-top: 40px!important;
+			margin-left: 0!important;
+		}
+		.services{
+			padding-top: 10!important;
+		}
+		
+		.order-lg-1{
+			padding-right: calc(var(--bs-gutter-x) * .5)!important;
+		}
+		.btn-getstarted{
+			display: none!important;
+		}
+		.pwhat{
+			font-size: 16px!important;
+  			text-align: left!important;
+		}
+	}
+</style>
+
+</head>
+
+<body class="index-page scrolled" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="0" style="">
+
+  <header id="header" class="header d-flex align-items-center fixed-top" style="--background-color: black;">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="https://veritasgroup.in" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">The Veritas Group</h1>
+<span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="https://veritasgroup.in" class="">Home<br></a></li>
+          <li><a href="https://veritasgroup.in/team" class="">Team</a></li>
+          <li class="dropdown"><a href="#services" class="" style="
+    color: var(--accent-color);
+"><span>Conferences</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+ <li><a href="https://veritasgroup.in/conferences/veritasch2m">Veritas MUN 2.0</a></li>
+                  <li><a href="https://veritasgroup.in/conferences/verizonm">Verizon MUN 1.0</a></li>
+                  <li><a href="https://veritasgroup.in/conferences/vercianm">Vercian MUN 1.0</a></li>
+                  <li><a href="https://veritasgroup.in/conferences/vimarsham">Vimarsha YP 1.0</a></li>
+            <li><a href="https://veritasgroup.in/conferences/veritasch1m">Veritas MUN 1.0</a></li><li><a href="https://veritasgroup.in/conferences/araver">Araver MUN 1.0</a></li></ul>
+          </li>
+          <li class="dropdown"><a href="#portfolio"><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://veritasgroup.in/conferences/kaizen">Kaizen For Change</a></li>
+            <li><a href="https://veritasgroup.in/conferences/verses">Verses</a></li></ul>
+          </li>
+          <li><a href="mailto:info@veritasgroup.in" class="">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform">Join Veritas Group</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section" style="
+    padding-bottom: 0rem;
+      background-image: linear-gradient(aqua, black, black, black, black, black);
+    padding-top: 2rem;
+">
+<div class="container col-xxl-8 py-5" style="padding-top: 2rem !important;width: 100%;/* margin-top: 3rem; */padding-bottom: 1rem!important;">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5" style="
+    padding-right: 2rem!important;
+    padding-left: 2rem;
+    padding-top: 4rem!important;
+    padding-bottom: 0rem!important;
+">
+<div class="col-lg-6" style="
+    width: 100%!important;
+    margin-top: 1rem;
+">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" style="
+    color: white!important;
+    font-size: 2.5rem;
+    text-align: center;
+">Verizon Model United Nations <em style="
+    font-style: normal;
+    color: aqua;
+">Conference V</em></h1>
+        <p class="col-md-8 fs-4 pwhat" style="max-width: 100%;font-size: 1.1rem!important;padding-left: 0px;width: 90%!important;padding-top: 1rem;display: none;"><a class="btn-getstarted confb" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" style="
+    color: var(--contrast-color);
+    font-size: 30px;
+    padding: 8px 30px;
+    margin: 10px 0 0 0px;
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 2px solid aqua;
+">Registration Form</a>
+<a class="btn-getstarted confb" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" style="
+    color: var(--contrast-color);
+    font-size: 30px;
+    padding: 8px 32px;
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+    margin: 0px 0 0 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 2px solid aqua;
+">  ‎ Secretariat Form   ‎</a></p>
+
+        
+      <p class="col-md-8 fs-4 pwhat" style="max-width: 100%;font-size: 1.1rem!important;padding-left: 0px;width: 90%!important;padding-top: 1rem;display: none;"><a class="btn-getstarted confb" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" style="
+    color: var(--contrast-color);
+    font-size: 30px;
+    padding: 8px 30px;
+    /* margin: 0 0 0 30px; */
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 2px solid aqua;
+">Committee Matrix</a>
+<a class="btn-getstarted confb" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" style="
+    color: var(--contrast-color);
+    font-size: 30px;
+    padding: 8px 23px;
+    margin: 0 0 0 30px;
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 2px solid aqua;
+">Background Guides</a></p><p class="col-md-8 fs-4 pwhat" style="max-width: 100%;font-size: 1.1rem!important;padding-left: 0px;width: 90%!important;padding-top: 1rem;display: none;"><a class="btn-getstarted confb" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" style="
+    color: var(--contrast-color);
+    font-size: 30px;
+    padding: 8px 30px;
+    /* margin: 0 0 0 30px; */
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 2px solid aqua;
+">‎ ‎ ‎ ‎ ‎ ‎ ‎ Instagram‎ ‎‎  ‎ ‎ ‎ ‎ ‎ </a>
+<a class="btn-getstarted confb" href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" style="
+    color: var(--contrast-color);
+    font-size: 30px;
+    padding: 8px 30px;
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+    margin: 0 0 0 35px;
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 2px solid aqua;
+">‎   ‎ Venue Location   ‎  ‎</a></p></div>
+      <div class="col-10 col-sm-8 col-lg-6" style="
+    width: 100%!important;
+    margin-top: 1rem;
+">
+        <img src="../logos/veritasch1.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500px" height="500px" style="
+    border-radius: 8px;
+">
+      </div>
+
+<p class="col-md-8 fs-4 pwhat" style="max-width: 100%;font-family: var(--heading-font);font-size: 1.1rem!important;padding-left: 0px;text-align: left;width: 100%;padding-left: 2rem;margin-top: 3rem;"><b style="
+    color: aqua;
+">DATES:</b> ‎ 10th &amp; 11th April 2025<br><b style="
+    color: aqua;
+">VENUE:</b> TBA<br><b style="
+    color: aqua;
+">EMAIL:</b> ‎ munverizon@gmail.com
+</p>
+      
+    <p class="col-md-8 fs-4 pwhat" style="max-width: 100%;font-family: var(--heading-font);font-size: 1.1rem!important;padding-left: 0px;text-align: left;width: 100%;margin-top: 0rem;padding-left: 2rem;">Verizon MUN, the name is derived from our parent company "Veritas" along with the word "Horizon" signifying a broad scope or future since this edition is completely focused on Science based committees. From the Presidential Board of The Veritas Group, we bring you back the second edition of our STEM Based conference: VERIZON MUN - CONFERENCE V! Join the team now to be a part to be a part of this epic experience, that will go down in the books as one of the finest conferences of the NCR Circuit!</p></div>
+  </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+<section id="services" class="services section" style="
+    padding-top: 1rem;
+    padding-bottom: 0;
+    padding: 0rem 2rem;
+">
+
+  
+  <div class="container section-title aos-init aos-animate" data-aos="fade-up" style="
+    padding-bottom: 1rem;
+">
+    
+    <p style="font-size: 30px;">OUR COMMITTEES AND AGENDAS</p>
+  </div><!-- End Section Title -->
+
+  
+
+</section><!-- /Services Section -->
+
+
+    <!-- Call To Action Section -->
+    <!-- /Call To Action Section -->
+
+    
+    <!-- Testimonials Section -->
+    <!-- /Testimonials Section -->
+
+    <!-- Team Section -->
+    <!-- /Team Section -->
+
+    <!-- Team Section -->
+    <section id="features" class="features section" data-builder="section" data-colorpreset="cp-dark-background" style="padding: 0 1rem;">
+
+  <div class="container">
+    <div class="row gy-4 justify-content-between">
+      <div class="col-lg-6 d-flex flex-column justify-content-center" style="width: 100%;">
+
+        <div class="features-item d-flex pt-4">
+          <img src="https://veritasgroup.in/conferences/verizon2co/unsc.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>UN 2.0 Reformative Committee</h4>
+            <p><b>Agenda:</b> Reforming the United Nations Security Council under UN 2.0 Legal Institutional and Procedural Pathways toward Equitable Representation</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/unw.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>UN Women</h4>
+            <p><b>Agenda:</b> Ensuring the Protection and Empowerment of Women in Conflict and Post Conflict Situations</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/loksabha.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>Lok Sabha</h4>
+            <p><b>Agenda:</b> Deliberating the Misuse of Investigative Agencies and its Impact on Democratic Accountability</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/who.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>World Health Organization</h4>
+            <p><b>Agenda:</b> Strengthening Global Preparedness and Response Mechanisms for Future Pandemics</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/unhrc.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>United Nations Human Rights Council</h4>
+            <p><b>Agenda:</b> Protecting the Rights of Refugees and Displaced Populations in Conflict and Post Conflict Regions</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/unoct.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>United Nations Office of Counter Terrorism</h4>
+            <p><b>Agenda:</b> Addressing Radicalization Drivers such as Political Instability Poverty and Social Exclusion</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/disec.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>Disarmament and International Security Committee</h4>
+            <p><b>Agenda:</b> Addressing the Rapid Militarization of Emerging Technologies and its Implications for International Security</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/ipc.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>International Press Corps</h4>
+            <p><b>Agenda:</b> Inviting Journalists Caricaturists and Photographers</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/wto.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>World Trade Organization</h4>
+            <p><b>Agenda:</b> Reducing Trade Disruptions Arising from Economic Sanctions and Retaliatory Tariff Wars</p>
+          </div>
+        </div>
+
+        <div class="features-item d-flex pt-4" style="margin-top:2rem;">
+          <img src="https://veritasgroup.in/conferences/verizon2co/ccc.png" style="width:80px;height:80px;margin-right:20px;">
+          <div>
+            <h4>Continuous Crisis Committee</h4>
+            <p><b>Agenda:</b> Investigation of the Sunanda Pushkar Death Case 2014 and Related Controversies</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section -->
+<!-- /Team Section -->
+    <!-- Team Section -->
+    <!-- /Team Section -->
+
+    <!-- Contact Section -->
+    <!-- /Contact Section -->
+
+  </main>
+
+  <div class="container">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" style="
+    color: white;
+    text-align: left;
+    padding-bottom: 1rem!important;
+    margin-bottom: 0rem!important;
+">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <img class="bi me-2" width="100" src="https://ikshitsethi01.github.io/veritasgroup/logos/footer.jpg" style="
+    width: 160%;
+    margin-top: -2%;
+">
+      </a>
+      
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3">
+      <h5>Main Pages</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="https://veritasgroup.in/" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="https://veritasgroup.in/team" class="nav-link p-0 text-body-secondary">Team</a></li>
+        <li class="nav-item mb-2"><a href="mailto:info@veritasgroup.in" class="nav-link p-0 text-body-secondary">Contact</a></li>
+        <li class="nav-item mb-2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd-8vAt3i0yOxPEffk6O7vnpyh3zL6nCbC14UpeLyrN4SUSHw/viewform" class="nav-link p-0 text-body-secondary">Join Team Veritas</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Conferences</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/veritasch2" class="nav-link p-0 text-body-secondary">Veritas MUN</a></li>
+        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/veritasch1" class="nav-link p-0 text-body-secondary">Verizon MUN</a></li><li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/vercian" class="nav-link p-0 text-body-secondary">Vercian MUN</a></li>
+        
+        <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/vimarsha" class="nav-link p-0 text-body-secondary">Vimarsha MUN</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Projects</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="kaizen" class="nav-link p-0 text-body-secondary">Kaizen For Change</a></li>
+        
+        
+        
+        
+      <li class="nav-item mb-2"><a href="https://veritasgroup.in/conferences/verses" class="nav-link p-0 text-body-secondary">Verses</a></li></ul>
+    </div>
+  </footer>
+</div>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;910b7d59ed0c129a&quot;,&quot;version&quot;:&quot;2025.1.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;910b9fb3dcce1850&quot;,&quot;version&quot;:&quot;2025.1.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;910ba662184be162&quot;,&quot;version&quot;:&quot;2025.1.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;91b94deabae1aead&quot;,&quot;version&quot;:&quot;2025.1.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;91ca23398d0fe221&quot;,&quot;version&quot;:&quot;2025.1.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;91d228ec8fc4e1e4&quot;,&quot;version&quot;:&quot;2025.1.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;91d243c24a8edad4&quot;,&quot;version&quot;:&quot;2025.1.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;91e23a821b771f90&quot;,&quot;version&quot;:&quot;2025.1.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;0c9800761b2740f28f4694055c9ab9e9&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+</body></html>
